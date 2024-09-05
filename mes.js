@@ -36,7 +36,7 @@ loadPosts();
 // Logout
 document.getElementById('logout-button').addEventListener('click', () => {
     localStorage.removeItem('loggedInUser');
-    window.location.href = 'login.html'; // Redirect to login page after logout
+    window.location.href = 'index.html'; // Redirect to login page after logout
 });
 
 
